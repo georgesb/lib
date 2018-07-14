@@ -1,10 +1,10 @@
 function Timer(seconds, x, y) {
   
     this.seconds = seconds;
-  	this.secondDisplay;
+    this.secondDisplay;
     this.x = x;
     this.y = y;
-	this.minutes = 0;
+    this.minutes = 0;
   
     this.display = function() {
         if(this.seconds > 0 )
