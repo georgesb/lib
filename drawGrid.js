@@ -12,6 +12,5 @@ function drawGrid() {
         line(-width, y, width, y);
         text(y, 1, y + 12);
     }
-    noFill();
-    rect(0,0,width,height);
+
 }
